@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 module.exports = {
   env: {
     es6: true
@@ -9,5 +10,6 @@ module.exports = {
     semi: ['error', 'always'],
     'semi-spacing': 'error',
     'no-extra-semi': 'error',
+    'no-unexpected-multiline': 'error',
   },
 };
